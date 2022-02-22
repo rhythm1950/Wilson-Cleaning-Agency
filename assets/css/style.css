@@ -263,9 +263,6 @@ body {
 
 .intro-banner:after {
   content: "";
-  background-image: url(../images/slider-left-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   left: 0;
   top: 0px;
   width: 262px;
@@ -895,9 +892,6 @@ body {
 
 .main-banner:after {
   content: "";
-  background-image: url(../images/slider-left-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   left: 0;
   top: 60px;
   width: 262px;
@@ -907,9 +901,6 @@ body {
 
 .main-banner:before {
   content: "";
-  background-image: url(../images/slider-right-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   right: 0;
   top: 60px;
   width: 1159px;
@@ -934,9 +925,10 @@ body {
   z-index: 2;
   position: relative;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   color: #2a2a2a;
   margin-bottom: 20px;
+  line-height: 54px;
 }
 
 .main-banner .left-content p {
@@ -1213,9 +1205,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .services:after {
   content: "";
-  background-image: url(../images/services-left-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   left: 0;
   top: 0px;
   width: 786px;
@@ -1225,9 +1214,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .services:before {
   content: "";
-  background-image: url(../images/services-right-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   right: 0;
   top: 400px;
   width: 161px;
@@ -1456,9 +1442,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .our-portfolio:before {
   content: "";
-  background-image: url(../images/portfolio-right-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   right: 0;
   top: 0px;
   width: 414px;
@@ -1468,9 +1451,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .our-portfolio:after {
   content: "";
-  background-image: url(../images/portfolio-left-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   left: 0;
   top: 0px;
   width: 677px;
@@ -1571,9 +1551,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 /* Blog */
 .blog:before {
   content: "";
-  background-image: url(../images/blog-left-dec.jpg);
-  background-repeat: no-repeat;
-  position: absolute;
   left: 0;
   top: 0px;
   width: 961px;
@@ -1731,13 +1708,10 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 form#contact:before {
-  background-image: url(../images/contact-top-right.png);
-  position: absolute;
   right: 0;
   top: 0;
   width: 726px;
   height: 78px;
-  background-repeat: no-repeat;
   content: "";
   z-index: 1;
 }
@@ -1750,13 +1724,10 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../images/contact-bottom-right.png);
-  position: absolute;
   right: 0;
   bottom: 0;
   width: 532px;
   height: 106px;
-  background-repeat: no-repeat;
   content: "";
   z-index: 1;
 }
