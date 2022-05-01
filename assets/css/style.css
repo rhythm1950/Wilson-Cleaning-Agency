@@ -1,5 +1,8 @@
 /* Global styles */
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
   background: #fff;
   font-family: "Poppins", sans-serif;
 }
@@ -46,7 +49,64 @@ html, body {
   background-color: #38c462;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -59,13 +119,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   clear: both;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -73,7 +140,8 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -86,7 +154,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -333,21 +406,21 @@ header .navbar {
   max-width: 593px;
 }
 
-.hero-btn a{
-  display: inline-block ;
-  padding: 10px 20px ;
-  color: white ;
-  border: 1px solid white ;
+.hero-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
   border-radius: 23px;
-  font-weight: 500 ;
-  letter-spacing: 0.3px ;
+  font-weight: 500;
+  letter-spacing: 0.3px;
   transition: all 0.5s;
 }
 
 .hero-btn a:hover {
   background-color: #38c462;
-  color: #fff ;
-  border: 1px solid #38c462 ;
+  color: #fff;
+  border: 1px solid #38c462;
 }
 
 /* About section */
@@ -399,7 +472,7 @@ header .navbar {
   left: 0;
 }
 
-.progress > span {
+.progress>span {
   width: 50%;
   height: 100%;
   overflow: hidden;
@@ -571,6 +644,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(36);
     transform: rotate(36deg);
@@ -582,6 +656,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(72);
     transform: rotate(72deg);
@@ -593,6 +668,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(108);
     transform: rotate(108deg);
@@ -604,6 +680,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(144);
     transform: rotate(144deg);
@@ -615,6 +692,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(180);
     transform: rotate(180deg);
@@ -975,7 +1053,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 /* Footer */
 .footer {
   background: #38c462;
-  color:white !important;
+  color: white !important;
 }
 
 .footer p {
@@ -1003,10 +1081,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .header-area .main-nav .logo h4 {
     font-size: 24px;
   }
+
   .header-area .main-nav .logo h4 img {
     max-width: 25px;
     margin-left: 0px;
   }
+
   .header-area .main-nav .nav li:last-child {
     padding-left: 20px;
   }
@@ -1016,86 +1096,110 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .intro-banner:before {
     display: none;
   }
+
   form#contact {
     overflow: hidden;
   }
+
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
+
   .main-banner .left-content {
     margin-right: 0px;
   }
+
   .main-banner {
     text-align: center;
     padding: 226px 0px 30px 0px;
   }
+
   .main-banner:before {
     display: none;
   }
+
   .main-banner .right-image {
     margin: 30px auto 0px auto;
     text-align: center;
   }
+
   .features-item {
     margin-bottom: 45px;
   }
+
   .last-features-item,
   .last-skill-item {
     margin-bottom: 0px !important;
   }
+
   .skill-item {
     margin-bottom: 30px;
   }
+
   .about-left-image img {
     margin-right: 0px;
     margin-bottom: 45px;
   }
+
   .services .naccs .menu div {
     font-size: 15px;
     font-weight: 500;
   }
+
   .service-item {
     text-align: center;
   }
+
   .service-item .icon {
     margin-top: 0px;
     margin-bottom: 30px;
   }
+
   .about-us .left-image {
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 45px;
   }
+
   .blog-posts {
     margin-left: 0px;
     margin-top: 30px;
   }
+
   .post-item {
     margin-bottom: 70px;
   }
+
   .portfolio .owl-nav {
     display: none !important;
   }
+
   .contact-info {
     margin-top: 60px;
   }
+
   form#contact {
     padding: 45px;
   }
+
   html,
   body {
     overflow-x: hidden;
   }
+
   .mobile-top-fix {
     margin-top: 30px;
     margin-bottom: 0px;
   }
+
   .mobile-bottom-fix {
     margin-bottom: 30px;
   }
+
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
+
   .topbar {
     display: none;
   }
@@ -1105,40 +1209,51 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .header-area .main-nav .logo h4 {
     font-size: 30px;
   }
+
   .header-area .main-nav .logo h4 img {
     max-width: 30px;
     margin-left: 5px;
   }
+
   .main-banner .info-stat {
     margin-bottom: 15px;
   }
+
   .service-item {
     text-align: center;
     padding: 30px;
   }
+
   .service-item .icon {
     float: none;
     margin-right: 0px;
     margin-bottom: 15px;
   }
+
   .service-item .right-content {
     display: inline-block;
   }
+
   .services .naccs .menu div .thumb {
     padding: 5px;
   }
+
   .services .icon img {
     margin: 0px;
   }
+
   .services ul.nacc li.active {
     padding: 45px;
   }
+
   .services .naccs .menu div {
     font-size: 0px;
   }
+
   .services ul.nacc li .right-image img {
     float: none;
   }
+
   .portfolio .section-heading,
   .about-us .section-heading,
   .about-us .about-item,
@@ -1146,52 +1261,66 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .about-us .main-green-button {
     text-align: center;
   }
+
   .portfolio .section-heading .line-dec {
     margin: 0 auto;
   }
+
   .our-services .section-heading {
     margin-left: 15px;
     margin-right: 15px;
   }
+
   .free-quote form input {
     margin-left: 0px;
     padding: 0px 30px;
   }
+
   .free-quote form button {
     margin-left: 0px;
     border-bottom-left-radius: 40px;
     border-top-right-radius: 0px;
   }
+
   .blog-posts {
     margin-left: 0px;
     margin-top: 30px;
   }
+
   .post-item {
     margin-bottom: 30px;
   }
+
   .post-item .thumb img {
     max-width: 140px;
   }
+
   .post-item .right-content p {
     display: none;
   }
+
   .about-us .about-item {
     margin-top: 15px;
   }
+
   form#contact {
     padding: 30px;
   }
+
   .navbar {
     display: none;
   }
+
   .background-header {
     display: none;
   }
+
   .main-banner {
     padding: 0px 0px 0px 0px;
     margin-top: -10rem;
     margin-bottom: -5rem;
   }
+
   .main-banner .left-content h2 {
     font-size: 28px;
     line-height: 38px;
@@ -1201,9 +1330,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .main-banner .left-content p {
     text-align: left;
   }
+
   .responsive-btn {
     text-align: left;
   }
+
   .free-quote:before {
     width: 1345px;
     height: 603px;
