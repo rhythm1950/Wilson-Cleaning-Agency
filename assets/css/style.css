@@ -1506,5 +1506,4 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .nacc .ticks-list span {
   display: inline-block;
-  opacity: 1;
 }
