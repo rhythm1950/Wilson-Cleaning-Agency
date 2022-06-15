@@ -1531,7 +1531,3 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .footer p {
   color: white !important;
 }
-
-.footer nav li {
-  text-align: left;
-}
