@@ -1,5 +1,5 @@
 /* Global styles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 html,
 body {
@@ -105,7 +105,6 @@ nav,
 section,
 article,
 aside,
-footer,
 figcaption {
   margin: 0;
   padding: 0;
@@ -131,7 +130,6 @@ nav,
 section,
 article,
 aside,
-footer,
 hgroup {
   display: block;
 }
@@ -472,7 +470,7 @@ header .navbar {
   left: 0;
 }
 
-.progress>span {
+.progress > span {
   width: 50%;
   height: 100%;
   overflow: hidden;
@@ -1050,32 +1048,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin: 0 auto;
 }
 
-/* Footer */
-.footer {
-  background: #38c462;
-  color: white !important;
-}
-
-.footer p {
-  color: white !important;
-}
-
-.footer nav li {
-  text-align: left;
-}
-
-.footer a {
-  color: white;
-}
-
-.footer a:hover {
-  color: black;
-}
-
-.sub-footer {
-  background: #308148;
-}
-
 /* Responsive style */
 @media (max-width: 1200px) {
   .header-area .main-nav .logo h4 {
@@ -1340,9 +1312,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
     height: 603px;
   }
 }
-
-
-
 
 /* ................................ */
 /* Services section */
